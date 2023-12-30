@@ -83,7 +83,6 @@ h1.dialog-title {
   right: 20px;
   cursor:pointer;
   font-size: 1.2em;
-  font-weight: 100;
 }
 .dialog-close:hover {
   opacity: 0.6;

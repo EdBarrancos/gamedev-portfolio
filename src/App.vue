@@ -40,45 +40,20 @@ Helpers.preloadImages([
 @import './css/projects.less';
 @import './css/variables.less';
 
-html, body {
-  margin: 0px;
-  background-color: @bodyBgColor;
-}
-
 #app {
-  background-color: @contentBgColor;
   color: @textColor;
 
-  font-family: 'Karla', Helvetica, Arial, sans-serif;
+  font-family: Alfa Slab One;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  font-size: 1.1em;
-  line-height: 1.6em;
-  text-align: justify;
+  font-size: 2em;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
 }
 
-h1, h2, h3, h4, h5 {
-  text-align: left;
-}
 
-a {
-  color: @textColor;
-  text-decoration: none;
-  opacity: 0.5;
-}
-a:hover, .router-link-exact-active {
-  opacity: 1;
-}
-
-h1 {
-  font-size: 2.5em;
-  font-weight: 100;
-  margin-top: -10px;
-  margin-bottom: 40px;
-  margin-left: -2px; // hack to make it "seem" more aligned with smaller text content
-  line-height: 1.1em;
-}
 
 .main {
     padding: 12px;
