@@ -27,7 +27,9 @@
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="less">
+
+@import '../css/variables.less';
 
 .about-me {
   margin-bottom: 293px;
@@ -35,7 +37,12 @@
 }
 
 .intro {
-  
+  margin-bottom: 0.7em;
+  text-align: left;
+  padding-left: 15vw;
+  color: @contentBgColor;
+  stroke: yellow;
+  stroke-width: .25em;
 }
 
 .paragraph {

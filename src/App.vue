@@ -68,7 +68,7 @@ Helpers.preloadImages([
 
   h1 {
     margin-top: 0.67em;
-    margin-bottom: 80px;
+    margin-bottom: 0.5em;
     line-height: 0.7em;
   }
 
@@ -77,7 +77,7 @@ Helpers.preloadImages([
   }
 
   .main, .header, .footer {
-    max-width: 1200px;
+    
     margin: 0 auto;
   }
 }

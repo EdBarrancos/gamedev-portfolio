@@ -2,7 +2,6 @@
   <div class="footer">
     
     <div class="left"><a href="https://github.com/schouffy/gamedev-portfolio" target="blank">Portfolio template</a> by schouffy</div>
-    <div class="right">Reach me at <a href="mailto:eduardobarrancos11488@gmail.com">eduardobarrancos11488@gmail.com</a> or <router-link to="/contact">through here</router-link></div>
   </div>
 </template>
 
@@ -26,7 +25,7 @@ export default Vue.extend({
   padding-bottom: 30px;
 }
 
-.left, .right {
+.left {
     padding-top: 10px;
     text-align: center;
   }
@@ -37,7 +36,7 @@ export default Vue.extend({
     padding: 0;
   }
 
-  .left, .right {
+  .left {
     padding: 20px;
   }
 
